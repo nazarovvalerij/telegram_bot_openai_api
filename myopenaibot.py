@@ -1,8 +1,8 @@
 import telebot
 import openai
 
-bot = telebot.TeleBot("5627888121:AAE5zoiNMcrddeN7EXf8dsAd5aFZ0cHIp6c")
-openai.api_key = "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"
+bot = telebot.TeleBot("API_from_@BotFather")
+openai.api_key = "openAI_API"
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
